@@ -4,7 +4,7 @@ public class MergeSort {
 	static int N;
 	static int[] temp;
 
-	public MergeSort (int n){
+	MergeSort (int n){
 		N = n;
 		temp = new int[N];
 	}

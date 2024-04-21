@@ -1,7 +1,4 @@
-package Basics.Test;
-
-import Basics.MergeSort;
-import Basics.QuickSort;
+package Basics;
 
 import java.util.Arrays;
 
@@ -13,7 +10,7 @@ public class BasicsTest {
 
 	public static void main (String[] args) {
 //		quickSortTest(array);
-//		mergeSortTest(array, array.length);
+		mergeSortTest(array, array.length);
 	}
 
 	static void quickSortTest(int[] array){
